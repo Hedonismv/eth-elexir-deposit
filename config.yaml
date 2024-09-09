@@ -1,0 +1,19 @@
+app:
+  name: "Elixir Deposit"
+  version: "1.0.0"
+
+
+ethereum:
+  rpc: "https://eth.llamarpc.com"
+  delays:
+    wallet:
+      min: 100
+      max: 150
+    block:
+      min: 250
+      max: 500
+  workflow:
+    gweiLimit: 4
+    workAmountRangePercent:
+      min: 45
+      max: 60
